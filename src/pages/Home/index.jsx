@@ -49,8 +49,8 @@ export function Home(){
                             <MovieCard data={{ title: note.title, text: note.description, points: note.rating, tags: note.tags.map(tag => tag.name) }} key={note.id} onClick={() => handleDetails(note.id)}/>
                         </Link>
                     ))):
-                    <div>
-                        <h2>Caixa Vazia. Adicione seu filme!</h2>
+                    <div id='box'>
+                        <h2> Caixa Vazia. Adicione seu filme!</h2>
                         <FiAlertTriangle/>
                     </div>
                     }

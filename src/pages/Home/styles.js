@@ -67,4 +67,20 @@ export const Content = styled.div`
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
+
+   #box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 6rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    color: ${({theme}) => theme.COLORS.PINK_100};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+   }
+
+   #box h2 {
+      margin-bottom: 4rem;
+   }
 `

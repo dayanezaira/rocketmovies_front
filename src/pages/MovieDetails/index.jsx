@@ -10,7 +10,6 @@ import avatarPlaceholder from '../../assets/avatar_placeholder.svg'
 import { useAuth } from '../../hooks/auth'
 import {api} from '../../services/api'
 
-
 export function MovieDetails(){
   
   const [data, setData] = useState(null)
@@ -46,15 +45,12 @@ export function MovieDetails(){
           <main>
             <Content>
                 <Link to="/"><FaArrowLeft/> Voltar</Link>
-                
                 <h1> {data.title} <Stars points={data.rating}/></h1>
-
                 <User>
                     <img src={avatarUrl} alt="Foto do usuário" />
                     <span>{`Por : ${user.name}`}</span>
                     <strong><LuClock3 /> {data.created_at.split(' ')[0]} às {data.created_at.split(' ')[1]} </strong>
                 </User>
-
                   {
                     data.tags &&
                     <div id="tags">
@@ -66,12 +62,8 @@ export function MovieDetails(){
                       }
                     </div>
                   }
-                
                 <p> {data.description}</p>
-
-                
                 <a onClick={handleDelete}> Excluir nota </a>
-                
             </Content>
           </main>
       }
