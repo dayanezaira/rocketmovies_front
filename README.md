@@ -4,18 +4,18 @@
 
 Nessa atividade foi realizada a integração do front-end com o Backend;
 
-## 🔖 Layout 
+## 🛠 Backend
 
-O figma do projeto está disponível nesse [Link](<https://www.figma.com/file/r19npdgPqel1gnza265dOY/RocketMovies-(Copy)?type=design&node-id=0-1&mode=design&t=bovwIaXZRufKX5iD-0>).
+Repositório do Backend está disponível em:
+
+https://github.com/dayanezaira/rocketmovies_api
+
+## 🔖 Deploy
+
+Aplicação Rocketmovies publicada no Netlify: https://rocketmoviesdf.netlify.app/
 
 <img src= "./github-img/login.png" width="100%">
 <img src= "./github-img/notes.png" width="100%">
 <img src= "./github-img/new.png" width="100%">
 <img src= "./github-img/details.png" width="100%">
 <img src= "./github-img/profile.png" width="100%">
-
-## 🛠 Backend
-
-Repositório do Backend está disponível em:
-
-https://github.com/dayanezaira/rocketmovies_api
